@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { ConfigsService } from './services/configs.service';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +10,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DI';
+
+  constructor(private configsService: ConfigsService) {
+
+  }
 }

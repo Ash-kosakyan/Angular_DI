@@ -4,6 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// import {
+//   DEFAULT_SCHEMA_CONFIG,
+//   schemaConfigsProviderFactory,
+//   ISchemaConfigs
+// } from './services/configs.service';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent
